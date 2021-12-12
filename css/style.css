@@ -146,7 +146,7 @@ body {
   position: relative;
 }
 
-@media (min-width: 425px) {
+@media (min-width: 525px) {
   .section {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -336,6 +336,13 @@ body {
 @media (min-width: 425px) {
   .get-started {
     padding: 100px 30px;
+    max-width: 850px;
+  }
+}
+
+@media (min-width: 425px) {
+  .get-started__h2 {
+    font-size: 2.5rem;
   }
 }
 
@@ -555,5 +562,19 @@ body {
 .footer__mail img {
   margin-right: 23px;
   height: 20px;
+}
+
+.footer__social-media {
+  margin-top: 60px;
+}
+
+.footer__social-media i {
+  font-size: 2rem;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.footer__social-media i:hover {
+  color: cyan;
 }
 /*# sourceMappingURL=style.css.map */
