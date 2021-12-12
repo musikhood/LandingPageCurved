@@ -20,6 +20,7 @@
 
 body
     min-width: 375px
+    overflow-x: hidden
 
 .nav
     display: flex
@@ -101,12 +102,16 @@ body
 .top
     width: 100%
     margin-bottom: -5px
+    &--footer
+        margin-bottom: -6px
     @media (min-width: 425px)
         display: none
 .top-2
     width: 100%
     margin-bottom: -5px
     display: none
+    &--footer
+        margin-bottom: -6px
     @media (min-width: 425px)
         display: block
 .div
@@ -182,7 +187,6 @@ body
         +btn
 
 .footer
-    min-height: 300px
     background-color: var(--very-dark-cyan)
     &__wrapper
         width: 335px
@@ -200,7 +204,6 @@ body
     &__about
         margin-top: 100px
         @media (min-width: 1000px)
-
             margin-top: 0
             order: -1
     &__contact
